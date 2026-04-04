@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "Nombre": "Luisa Fernanda",
+        "Email": "luisa@gmail.com",
+        "Telefono": "3001234567"
+    },
+    {
+        "id": 2,
+        "Nombre": "Carlos Rodríguez",
+        "Email": "carlos@gmail.com",
+        "Telefono": "3009876543"
+    },
+    {
+        "id": 3,
+        "Nombre": "María González",
+        "Email": "maria@gmail.com",
+        "Telefono": "3003456789"
+    },
+    {
+        "id": 4,
+        "Nombre": "Jorge Martínez",
+        "Email": "jorge@gmail.com",
+        "Telefono": "3008765432"
+    },
+    {
+        "id": 5,
+        "Nombre": "Ana López",
+        "Email": "ana@gmail.com",
+        "Telefono": "3002209876"
+    },
+    {
+        "id": 6,
+        "Nombre": "martin Pérez",
+        "Email": "martin@gmail.com",
+        "Telefono": "3003234567"
+    },
+    {
+        "id": 7,
+        "Nombre": "alejandro Gómez",
+        "Email": "alejandro@gmail.com",
+        "Telefono": "3004567890"
+    },
+    {
+        "id": 8,
+        "Nombre": "Sofía Ramírez",
+        "Email": "sofia@gmail.com",
+        "Telefono": "3005678901"
+    },
+    {
+        "id": 9,
+        "Nombre": "Diego Silva",
+        "Email": "diego@gmail.com",
+        "Telefono": "3006667890"
+    },
+    {
+        "id": 10,
+        "Nombre": "hugo Torres",
+        "Email": "hugo@gmail.com",
+        "Telefono": "3007767890"
+    }
+]

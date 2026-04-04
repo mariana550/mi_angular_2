@@ -1,0 +1,77 @@
+<body class="cars-body bg-secondary">
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand"> AURA AUTOS </a>
+            <ul class="navbar-nav border-light border-2 border-bottom">
+                <li class="nav-item"><a class="nav-link" routerLink="/"> Inicio </a></li>
+                <li class="nav-item"><a class="nav-link"> Catalogo </a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/clientes"> Clientes </a></li>
+                <li class="nav-item"><a class="nav-link"> Cuenta </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HERO SECTION -->
+    <div class="hero text-white d-flex align-items-center">
+        <div class="container">
+            <h1> EXPERIENCE THE FUTURE</h1>
+            <h2> AURA AUTOS </h2>
+            <button class="btn btn-outline-light me-4"> Ver catalogo </button>
+            <button class="btn btn-outline-light"> Clientes </button>
+        </div>
+    </div>
+    <div class="section text-white">
+        <div class="card car-card bg-dark border-secondary border-2">
+            <h3 class="text-center text-light mb-4"> NUESTROS VEHICULOS </h3>
+            <p class="text-center text-light mb-4"> Descubre nuestra amplia gama de vehículos, desde sedanes elegantes hasta SUV robustos, diseñados para satisfacer todas tus necesidades de conducción. </p>
+        </div>
+    </div>
+    <!-- CARDS -->
+    <div class="container">
+        <div class="row g-4 m-0">
+        @for(car of cars; track car.id) {
+            <div class="col-md-4">
+                <div class="card car-card">
+                    <img src="{{car.link}}" class="card-img-top">
+                    <div class="card-body text-dark">
+                        <h5> {{car.Nombre}} </h5>
+                        <button class= "btn btn-outline-dark me-5" data-bs-toggle= "collapse"[attr.data-bs-target]="'#detalle' + car.id">
+                            Ver detalles </button>
+                            <button class="btn btn-outline-dark btn-favoritos me-2"> 🛒 </button>
+                            <button class="btn btn-outline-dark btn-favoritos"> ❤️ </button>
+                        <div class="collapse"[id] ="'detalle' + car.id">
+                            <div class="card car-card mt-3">
+                                <div class="card-body">
+                                    <p>{{car.descripcion}}</p>
+                                    <p> Cilindraje: {{car.Cilindraje}} </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <footer class="footer">
+            <div class="container"> 
+                <div class="row text-center text-md-start">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h5> AURA AUTOS </h5>
+                        <p> Tu destino para vehículos de calidad. </p>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <h5> Contacto </h5>
+                        <p> Teléfono: +123 456 7890 </p>
+                        <p> Email: info@auraautos.com </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5> Síguenos </h5>
+                        <a href="#" class="text-light me-3"> Facebook </a>
+                        <a href="#" class="text-light me-3"> Twitter </a>
+                        <a href="#" class="text-light"> Instagram </a>
+                    </div>
+                </div>
+            </div>
+            </footer>
+</div>
+</div>
+</body>

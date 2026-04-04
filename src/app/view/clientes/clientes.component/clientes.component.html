@@ -1,0 +1,27 @@
+<div class="container my-5">
+    <div class="card card-body my-5 card-hover bg-dark text-light">
+        <h1 class="text-center my-5 text-light"> NUESTROS CLIENTES </h1>
+        <p class="text-center mb-5 text-light"> Conoce a nuestros clientes satisfechos, 
+        quienes han experimentado la calidad y el servicio excepcional de Aura Autos. </p>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col"> Id </th>
+                <th scope="col"> Nombre </th>
+                <th scope="col"> Email</th>
+                <th scope="col"> Telefono </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (cliente of clientes; track cliente.id) {
+                <tr>
+                    <th scope="row"> {{ cliente.id }} </th>
+                    <td> {{ cliente.Nombre }} </td>
+                    <td> {{ cliente.Email }} </td>
+                    <td> {{ cliente.Telefono }} </td>
+                </tr>
+            }
+    </tbody>
+    </table>
+    </div>
+</div>

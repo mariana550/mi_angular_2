@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "Nombre": "Toyota Prado TXL",
+        "Cilindraje": "3,0L",
+        "link": "Img/txl.jpg",
+        "descripcion": "La Toyota Prado TXL es una SUV de lujo que combina un diseño elegante con un rendimiento excepcional. Con su motor potente y eficiente, ofrece una experiencia de conducción suave y cómoda tanto en carretera como fuera de ella. Su interior espacioso y bien equipado cuenta con características avanzadas de conectividad y seguridad, brindando comodidad y tranquilidad a los ocupantes. La Prado TXL es la elección perfecta para aquellos que buscan una SUV confiable, versátil y lujosa en el segmento de los vehículos todoterreno."
+    },
+    {
+        "id": 2,
+        "Nombre": "Mazda 3",
+        "Cilindraje": "2,0L",
+        "link": "Img/mazda3.jpg",
+        "descripcion": "El Mazda 3 es un sedán compacto que ofrece una combinación de estilo, rendimiento y tecnología. Con su diseño moderno y aerodinámico, el Mazda 3 presenta un interior elegante y bien equipado, con características avanzadas de conectividad y seguridad. Su motor eficiente proporciona una conducción suave y ágil, ideal para la ciudad y viajes largos. El Mazda 3 es una opción popular para aquellos que buscan un vehículo confiable y atractivo en el segmento de los sedanes compactos."
+    },
+    {
+        "id": 3,
+        "Nombre": "Renault Clio",
+        "Cilindraje": "1,2L",
+        "link": "Img/clio.jpg",
+        "descripcion": "El Renault Clio es un hatchback compacto que ofrece una combinación de estilo, comodidad y rendimiento. Con su diseño moderno y aerodinámico, el Clio presenta un interior espacioso y bien equipado, con características tecnológicas avanzadas y materiales de alta calidad. Su motor eficiente proporciona una conducción suave y ágil, ideal para la ciudad y viajes largos. El Clio es una opción popular para aquellos que buscan un vehículo confiable y económico en el segmento de los hatchbacks compactos."
+    },
+    {
+        "id": 4,
+        "Nombre": "Ford Ranger",
+        "Cilindraje": "3,0L",
+        "link": "Img/ranger.jpg",
+        "descripcion": "La Ford Ranger es una camioneta pickup de tamaño mediano que combina robustez, versatilidad y tecnología. Con su diseño moderno y aerodinámico, la Ranger ofrece un interior cómodo y bien equipado, con características avanzadas de conectividad y seguridad. Su motor potente proporciona un rendimiento excepcional tanto en carretera como fuera de ella, mientras que su capacidad de carga y remolque la convierte en una opción ideal para trabajos pesados y aventuras al aire libre. La Ford Ranger es la elección perfecta para quienes buscan una camioneta confiable y capaz en el segmento de las pickups medianas."
+    },
+    {
+        "id": 5,
+        "Nombre": "Chevrolet Tracker",
+        "Cilindraje": "1,2L",
+        "link": "Img/tracker.jpg",
+        "descripcion": "La Chevrolet Tracker es una SUV compacta que combina estilo, tecnología y rendimiento. Con un diseño moderno y aerodinámico, ofrece un interior espacioso y cómodo, equipado con características avanzadas de conectividad y seguridad. Su motor eficiente proporciona una conducción suave y ágil, ideal para la ciudad y aventuras fuera de ella. La Tracker es la elección perfecta para quienes buscan versatilidad y estilo en un vehículo compacto."
+    },
+    {
+        "id": 6,
+        "Nombre": "Mercedes-AMG GT",
+        "Cilindraje": "4,0L",
+        "link": "Img/mercedez.jpg",
+        "descripcion": "El Mercedes-AMG GT es un deportivo de lujo que combina un diseño elegante con un rendimiento excepcional. Con su motor V8 biturbo de 4.0 litros, ofrece una potencia impresionante y una aceleración rápida. Su chasis y suspensión están diseñados para brindar una experiencia de conducción dinámica y precisa, mientras que su interior lujoso y tecnológico proporciona comodidad y estilo. El AMG GT es la elección perfecta para los entusiastas de los automóviles que buscan una combinación de lujo y rendimiento."
+    },
+    {
+        "id": 7,
+        "Nombre": "volkswagen jetta",
+        "Cilindraje": "1,4L",
+        "link": "Img/jetta.jpg",
+        "descripcion": "El Volkswagen Jetta es un sedán compacto que ofrece una combinación de estilo, comodidad y rendimiento. Con su diseño moderno y aerodinámico, el Jetta presenta un interior espacioso y bien equipado, con características tecnológicas avanzadas y materiales de alta calidad. Su motor eficiente proporciona una conducción suave y ágil, ideal para la ciudad y viajes largos. El Jetta es una opción popular para aquellos que buscan un vehículo confiable y elegante en el segmento de los sedanes compactos."
+    },
+    {
+        "id": 8,
+        "Nombre": "Ford Mustang",
+        "Cilindraje": "5,0L",
+        "link": "Img/ford mustang.jpg",
+        "descripcion": "El Ford Mustang es un ícono del automovilismo estadounidense, conocido por su diseño agresivo y su potente rendimiento. Con su motor V8 de 5.0 litros, el Mustang ofrece una experiencia de conducción emocionante y una aceleración impresionante. Su chasis y suspensión están diseñados para brindar una conducción dinámica y precisa, mientras que su interior combina estilo retro con tecnología moderna. El Mustang es la elección perfecta para los entusiastas de los automóviles que buscan un deportivo clásico con un toque contemporáneo."
+    },
+    {
+        "id": 9,
+        "Nombre": " Toyota Yaris",
+        "Cilindraje": "1,5L",
+        "link": "Img/yaris.jpg",
+        "descripcion": "El Toyota Yaris es un hatchback compacto que ofrece una combinación de eficiencia, comodidad y manejo. Con su diseño moderno y aerodinámico, el Yaris presenta un interior espacioso y bien equipado, con características tecnológicas avanzadas y materiales de alta calidad. Su motor eficiente proporciona una conducción suave y ágil, ideal para la ciudad y viajes largos. El Yaris es una opción popular para aquellos que buscan un vehículo confiable y económico en el segmento de los hatchbacks compactos."
+    },
+    {
+        "id": 10,
+        "Nombre": "Toyota Corolla Cross",
+        "Cilindraje": "1,8L",
+        "link": "Img/cross.jpg",
+        "descripcion": "El Toyota Corolla Cross es un SUV compacto que ofrece una combinación de estilo, comodidad y rendimiento. Con su diseño moderno y aerodinámico, el Corolla Cross presenta un interior espacioso y bien equipado, con características tecnológicas avanzadas y materiales de alta calidad. Su motor eficiente proporciona una conducción suave y ágil, ideal para la ciudad y viajes largos. El Corolla Cross es una opción popular para aquellos que buscan un vehículo versátil y confiable en el segmento de los SUV compactos."
+    }
+]

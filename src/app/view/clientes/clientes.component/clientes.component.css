@@ -1,0 +1,48 @@
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+.table th{
+    color: rgb(243, 241, 241);
+    font-style: italic;
+    background: #000000fe;
+    text-align: center;
+    border: 1px solid rgba(248, 240, 248, 0.918);
+    padding: 5px;
+    margin: 5px;
+}
+.table td{
+    background: #000000d4;
+    text-align: justify;
+    color : rgb(255, 255, 255);
+    padding: 5px;
+    max-width: 200px;
+    margin: 5px;
+    font-style: italic;
+    border: 1px solid rgba(244, 239, 244, 0.918);
+}
+.card{
+    background: #000000c8;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 50px;
+}
+.card-hover{
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.card-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(250, 248, 250, 0.719);
+}
+.table th:hover{
+    background-color: #d7d6d7c4;
+}
+.table td:hover{
+    background-color: #cfcecf9f;
+}
