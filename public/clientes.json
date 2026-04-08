@@ -31,14 +31,14 @@
     },
     {
         "id": 6,
-        "Nombre": "martin Pérez",
-        "Email": "martin@gmail.com",
+        "Nombre": "Martin Pérez",
+        "Email": "Martin@gmail.com",
         "Telefono": "3003234567"
     },
     {
         "id": 7,
-        "Nombre": "alejandro Gómez",
-        "Email": "alejandro@gmail.com",
+        "Nombre": "Alejandro Gómez",
+        "Email": "Alejandro@gmail.com",
         "Telefono": "3004567890"
     },
     {
@@ -55,8 +55,8 @@
     },
     {
         "id": 10,
-        "Nombre": "hugo Torres",
-        "Email": "hugo@gmail.com",
+        "Nombre": "Hugo Torres",
+        "Email": "Hugo@gmail.com",
         "Telefono": "3007767890"
     }
 ]

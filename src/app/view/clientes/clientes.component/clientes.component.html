@@ -1,27 +1,68 @@
-<div class="container my-5">
-    <div class="card card-body my-5 card-hover bg-dark text-light">
-        <h1 class="text-center my-5 text-light"> NUESTROS CLIENTES </h1>
-        <p class="text-center mb-5 text-light"> Conoce a nuestros clientes satisfechos, 
-        quienes han experimentado la calidad y el servicio excepcional de Aura Autos. </p>
-    <table class="table table-bordered table-striped table-hover">
-        <thead>
-            <tr>
-                <th scope="col"> Id </th>
-                <th scope="col"> Nombre </th>
-                <th scope="col"> Email</th>
-                <th scope="col"> Telefono </th>
-            </tr>
-        </thead>
-        <tbody>
-            @for (cliente of clientes; track cliente.id) {
+<div class="body">
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand"> AURA AUTOS </a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" routerLink="/"> Inicio </a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/" fragment="catalogo"> Catalogo </a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/clientes"> Clientes </a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/" fragment="cuenta"> Cuenta </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container">
+        <div class="card card-body card-hover text-light">
+            <h1 class="text-center my-4 mb-4"> Nuestros Clientes </h1>
+        <table class="table table-striped">
+            <thead>
                 <tr>
-                    <th scope="row"> {{ cliente.id }} </th>
-                    <td> {{ cliente.Nombre }} </td>
-                    <td> {{ cliente.Email }} </td>
-                    <td> {{ cliente.Telefono }} </td>
+                    <th scope="col"> Id </th>
+                    <th scope="col"> Nombre y apellido </th>
+                    <th scope="col"> Correo Electronico </th>
+                    <th scope="col"> Telefono </th>
+                    <th scope="col"> Acciones </th>
                 </tr>
-            }
-    </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @for (cliente of clientes; track cliente.id) {
+                    <tr>
+                        <th scope="row"> {{ cliente.id }} </th>
+                        <td> {{ cliente.Nombre }} </td>
+                        <td> {{ cliente.Email }} </td>
+                        <td> {{ cliente.Telefono }} </td>
+                        <td>
+                            <button class="btn btn-light-outline me-4"> Editar </button>
+                            <button class="btn btn-light-outline"> Eliminar </button>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+        </table>
+        </div>
     </div>
+    
+<!-- FOOTER -->
+<footer class="footer text-white pt-4">
+    <div class="container-fluid border-top border-light pt-4">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-3">
+            <h5>Sobre Nosotros</h5>
+            <p>AURA AUTOS es una empresa dedicada a la venta de vehículos de alta calidad.</p> </div>
+        <div class="col-md-4 mb-3">
+            <h5>Contacto</h5>
+            <p>Teléfono: 3218840894</p>
+            <p>Email: aura@autos.com</p></div>
+        <div class="col-md-4 mb-3">
+            <h5>Síguenos</h5>
+            <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a><br>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    </div>
+</div>
+<hr>
+    <div class="text-center pb-3">  2026 AURA AUTOS - Todos los derechos reservados </div>
+    </div>
+</footer>
 </div>

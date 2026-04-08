@@ -5,5 +5,4 @@ import { ClientesComponent } from './view/clientes/clientes.component/clientes.c
 export const routes: Routes = [
     {path: '', component:CarsComponent},
     {path: 'clientes', component:ClientesComponent},
-    {path: 'cars', component:CarsComponent},
 ];
