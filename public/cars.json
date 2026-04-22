@@ -73,14 +73,14 @@
         "id": 11,
         "Nombre": "Porsche 911",
         "Cilindraje": "3,0L",
-        "link": "Img/porshe.png",
+        "link": "Img/porche911.jpg",
         "descripcion": "El Porsche 911 es un deportivo icónico que combina rendimiento, estilo y tecnología. Con su diseño aerodinámico y motor boxer de 3,0 litros, el 911 ofrece una experiencia de conducción excepcional. Su interior está diseñado para brindar comodidad y control, mientras que sus características tecnológicas lo mantienen a la vanguardia del automovilismo."
     },
     {
         "id": 12,
         "Nombre": " Lexus LBX",
         "Cilindraje": "1,5L",
-        "link": "Img/lexus.png",
+        "link": "Img/lexus.jpg",
         "descripcion": "El Lexus LBX es un SUV de lujo que ofrece una combinación de estilo, comodidad y rendimiento. Con su diseño moderno y aerodinámico, el LBX presenta un interior espacioso y bien equipado, con características tecnológicas avanzadas y materiales de alta calidad. Su motor eficiente proporciona una conducción suave y ágil, ideal para la ciudad y viajes largos. El LBX es una opción popular para aquellos que buscan un vehículo versátil y confiable en el segmento de los SUV de lujo."
     }
 ]
